@@ -1,0 +1,82 @@
+/*
+  GRADIENT BG
+*/
+.info-wrapper {
+  background-color: black;
+  position: relative;
+  z-index: 1;
+}
+
+.info-content {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  height: 100vh;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 823px;
+  color: black;
+}
+
+.typography-header-1 {
+  font-size: 72px;
+  line-height: 1.0555555556;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+.descender-offset {
+  display: block;
+  padding-bottom: 3px;
+}
+
+.subhead {
+  margin-left: -5px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.models {
+  margin-bottom: 25px;
+  font-size: 24px;
+  line-height: 1.1666666667;
+  font-weight: 600;
+}
+
+.pricing {
+  margin-bottom: 21px;
+}
+
+.info-background-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.info-background {
+  position: relative;
+  padding-top: 58vh;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  pointer-events: none;
+  height: 1586px;
+}
+
+.mirrored {
+  margin-top: -2px;
+  padding-top: 0;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 100vh;
+  transform: scaleY(-1);
+  margin-top: -2px;
+  height: 1586px;
+}
